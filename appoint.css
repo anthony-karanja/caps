@@ -1,3 +1,11 @@
 .book{
-    background-color: azure;
+    background-color: rgb(95, 97, 97);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+.navbar :hover{
+    background-color: rgb(54, 221, 157);
+    
 }

@@ -1,8 +1,11 @@
 .navbar{
-    background-color: aqua;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: #4c5b61;
+    padding-left: 3rem;
+    padding-right: 3rem;
     border-radius: 20px;
+    margin-right: 5.2rem;
+    margin: auto;
+    height: 10rem;
 }
 .tag{
     font-size: xx-large;
@@ -10,6 +13,7 @@
     font-style: italic;
     text-align: center;
     padding-top: 40px;
+    color: white;
 }
 .right{
     text-align: right;
@@ -26,26 +30,30 @@
     background-color: rgb(54, 221, 157);
 }
 .body{
-    background-color: rgb(205, 248, 255);
+    background-color: rgb(15, 15, 15);
     background-repeat: no-repeat;
     width: 100%;
+    margin-right: 10rem;
     background-image: url(bn-min.jpg);
 }
 .contact{
-    border: 1px solid;
-    width: 50%;
-    text-align: center;
-    background-color: rosybrown;
+   
+    width: 15rem;
+    text-align: left;
+    background-color: darkgray;
     padding-left: 30px;
+    color: black;
 }
 p{
     font-size: large;
     font-weight: 100px;
     padding-left: 20px;
+    color: white;
 }
 .img{
     align-items: center;
-    
+    display: flex;
+    justify-content: space-between;
 }
 .logo{
     padding-left: 50px;
@@ -55,3 +63,36 @@ p{
     width: 100px;
     height: 100x;
 }
+.pic-1 > img {
+    
+    width: 10rem;
+    height: 10rem;
+    margin-top: 14.6rem;
+}
+.pic-2 > img {
+    width: 13rem;
+    height: 10rem;
+    margin-top: 14.6rem;
+}
+.pic-3 > img {
+    width: 14rem;
+    height: 10rem;
+    margin-top: 14.6rem;
+}
+.pic-4 > img {
+    width: 13rem;
+    height: 9rem;
+    margin-top: 15.7rem;
+}
+.icon{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
