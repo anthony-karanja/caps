@@ -94,3 +94,6 @@
     height: 10rem;
     margin-top: 2rem;
 }
+.nav :hover{
+    background-color: rgb(54, 221, 157);
+}
