@@ -5,20 +5,23 @@
     border-radius: 20px;
     margin-right: 5.2rem;
     margin: auto;
-    height: 10rem;
+    height: 5rem;
 }
 .tag{
     font-size: xx-large;
     font-weight: 300;
     font-style: italic;
     text-align: center;
-    padding-top: 40px;
     color: white;
+    padding-bottom: 6rem;
 }
 .right{
     text-align: right;
-    padding-bottom: 20px;
+    padding-bottom: 20rem;
     color: white;
+}
+.riight > button > {
+    padding-bottom: 10rem;
 }
 .right :hover{
     background-color: rgb(54, 221, 157);
@@ -86,8 +89,22 @@ p{
 }
 .icon{
     color: aliceblue;
+    padding-left: 2rem;
+    justify-content: space-between;
+    list-style: none;
 }
-
+.footer{
+    color: aliceblue;
+    text-align: center;
+    list-style: none;
+}
+.icon > fa {
+    justify-content: space-between;
+    list-style: none;
+}
+.footer2{
+    list-style: none;
+}
 
 
 
