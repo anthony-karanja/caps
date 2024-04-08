@@ -4,7 +4,7 @@
     padding-right: 3rem;
     border-radius: 20px;
     margin-right: 5.2rem;
-    margin: auto;
+    margin: 0px;
     height: 5rem;
 }
 .tag{
@@ -17,12 +17,10 @@
 }
 .right{
     text-align: right;
-    padding-bottom: 20rem;
+    margin-bottom: 20rem;
     color: white;
 }
-.riight > button > {
-    padding-bottom: 10rem;
-}
+
 .right :hover{
     background-color: rgb(54, 221, 157);
 }
@@ -69,23 +67,23 @@ p{
 .pic-1 > img {
     
     width: 10rem;
-    height: 10rem;
-    margin-top: 14.6rem;
+    height: 9rem;
+    margin-top: 16.5rem;
 }
 .pic-2 > img {
     width: 13rem;
-    height: 10rem;
-    margin-top: 14.6rem;
+    height: 9rem;
+    margin-top: 16.5rem;
 }
 .pic-3 > img {
     width: 14rem;
-    height: 10rem;
-    margin-top: 14.6rem;
+    height: 9rem;
+    margin-top: 16.5rem;
 }
 .pic-4 > img {
     width: 13rem;
     height: 9rem;
-    margin-top: 15.7rem;
+    margin-top: 16.5rem;
 }
 .icon{
     color: aliceblue;
@@ -97,16 +95,20 @@ p{
     color: aliceblue;
     text-align: center;
     list-style: none;
-}
-.icon > fa {
-    justify-content: space-between;
-    list-style: none;
+    background-color: #4c5b61;
 }
 .footer2{
-    list-style: none;
+    display: flex;
 }
-
-
+.mess{
+    padding-top: 1rem;
+}
+.footer2 .inst{
+    padding-left: 32rem;
+}
+.footer2 .face{
+    padding-left: 10px;
+}
 
 
 
