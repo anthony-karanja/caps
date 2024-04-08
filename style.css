@@ -1,0 +1,57 @@
+.navbar{
+    background-color: aqua;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+.tag{
+    font-size: xx-large;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    padding-top: 40px;
+}
+.right{
+    text-align: right;
+    padding-bottom: 20px;
+    color: white;
+}
+.right :hover{
+    background-color: rgb(54, 221, 157);
+}
+#search{
+    text-align: center;
+}
+.load :hover{
+    background-color: rgb(54, 221, 157);
+}
+.body{
+    background-color: rgb(205, 248, 255);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(bn-min.jpg);
+}
+.contact{
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    background-color: rosybrown;
+    padding-left: 30px;
+}
+p{
+    font-size: large;
+    font-weight: 100px;
+    padding-left: 20px;
+}
+.img{
+    align-items: center;
+    
+}
+.logo{
+    padding-left: 50px;
+    height: 150px;
+}
+.book{
+    width: 100px;
+    height: 100x;
+}
