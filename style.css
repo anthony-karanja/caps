@@ -5,15 +5,17 @@
     border-radius: 20px;
     margin-right: 5.2rem;
     margin: 0px;
-    height: 5rem;
+    height: 6rem;
 }
-.tag{
+
+h1{
     font-size: xx-large;
     font-weight: 300;
     font-style: italic;
-    text-align: center;
+    text-align: justify;
     color: white;
-    padding-bottom: 6rem;
+    padding-left: 25rem;
+    padding-top: 1rem;
 }
 .right{
     text-align: right;
@@ -24,8 +26,8 @@
 .right :hover{
     background-color: rgb(54, 221, 157);
 }
-#search{
-    text-align: center;
+button :hover{
+    background-color: rgb(54, 221, 157);
 }
 .load :hover{
     background-color: rgb(54, 221, 157);
@@ -46,10 +48,12 @@
     color: black;
 }
 p{
-    font-size: large;
+    font-size: x-large;
     font-weight: 100px;
     padding-left: 20px;
     color: white;
+    margin-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .img{
     align-items: center;
@@ -57,8 +61,9 @@ p{
     justify-content: space-between;
 }
 .logo{
-    padding-left: 50px;
-    height: 150px;
+    /* padding-left: 50px; */
+    height: 4rem;
+    width: 5rem;
 }
 .book{
     width: 100px;
@@ -68,22 +73,22 @@ p{
     
     width: 10rem;
     height: 9rem;
-    margin-top: 16.5rem;
+    margin-top: 27rem;
 }
 .pic-2 > img {
     width: 13rem;
     height: 9rem;
-    margin-top: 16.5rem;
+    margin-top: 27rem;
 }
 .pic-3 > img {
     width: 14rem;
     height: 9rem;
-    margin-top: 16.5rem;
+    margin-top: 27rem;
 }
 .pic-4 > img {
     width: 13rem;
     height: 9rem;
-    margin-top: 16.5rem;
+    margin-top: 26.5rem;
 }
 .icon{
     color: aliceblue;
@@ -109,8 +114,11 @@ p{
 .footer2 .face{
     padding-left: 10px;
 }
-
-
+button{
+    border-radius: 3rem;
+    text-decoration: none;   
+    margin-bottom: 2rem;
+}
 
 
 

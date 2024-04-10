@@ -11,19 +11,21 @@
         <button><a href="index.html">Home</a></button>
         <button><a href="cut.html">Hair Cuts</a></button>
     </div>
+    <div class="body">
     <div class="book">
         <p>This is our program:</p>
         <ul>
-            <li><strong>Weekdays</strong>;open from <strong>9.00AM</strong> to <strong>10.00PM</strong> </li>
-            <li><strong>Saturday</strong>;open from <strong>8.30AM</strong> to <strong>9.30PM</strong></li>
-            <li><strong>Sunday</strong>;open from <strong>1.00PM</strong> to <strong>9.30PM</strong></li>
+            <li><strong>Weekdays </strong> ; open from <strong>9.00AM</strong> to <strong>10.00PM</strong> </li>
+            <li><strong>Saturday </strong> ; open from <strong>8.30AM</strong> to <strong>9.30PM</strong></li>
+            <li><strong>Sunday </strong> ; open from <strong>1.00PM</strong> to <strong>9.30PM</strong></li>
+        </ul>
             <section id="application" class="application-section">
                 <div class="container">
                     <div class="row">
                         <div class="text-center">
                             <h2 class="heading">Book your Appointment Now</h2>
-                            <hr>
-                            <form id="applicationForm" action="submit_application.php" method="post">
+                            
+                            <form id="applicationForm" >
                                 <div class="row">
                                     <div class="column">
                                         <div class="form-group">
@@ -49,15 +51,17 @@
                                     </div>
                                 </div>
                                 <div class="send">
-                                    <button class="btn" type="submit">submit</button>
+                                    <button onclick="submit()" id="submit" >submit </button>
                                 </div>
                             </form>
                         </div>
+                   
                     </div>
                 </div>
-            </section>
-            
-        </ul>
+                
+            </section> 
     </div>
+</div>
+<script src="appoint.js"></script>
 </body>
 </html>

@@ -1,18 +1,35 @@
+.nav{
+    background-color: #4c5b61;
+    height: 4rem;
+    padding-left: 3rem;
+    border-radius: 3rem;
+}
+button{
+    margin-top: 1.5rem;
+}
 .images{
     display: flex;
     justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .images-2{
     display: flex;
     justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .images-3{
     display: flex;
     justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .images-4{
     display: flex;
     justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .pic-1 > img {
     width: 14rem;
@@ -96,4 +113,9 @@
 }
 .nav :hover{
     background-color: rgb(54, 221, 157);
+}
+.all{
+    background-color: rgb(109, 98, 98);
+    border-radius: 0px;
+    margin-top: 0.1rem;
 }
